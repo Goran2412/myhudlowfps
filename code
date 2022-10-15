@@ -106,9 +106,9 @@ local hideHUDElements = {
 
 hook.Add("HUDPaint","myhud", function()
 
--- PRINCIPAL BOX, TEXT, LINE
+-- MAIN BOX, TEXT, BARS
 
-draw.RoundedBox(5,5,840,520,230,Color(45,45,45,255)) -- PRINCIPAL BOX
+draw.RoundedBox(5,5,840,520,230,Color(45,45,45,255)) -- MAIN BOX
 draw.SimpleText( "Health", "healtharmor", 9, 1015, Color(255,255,255),0,0) -- TEXT
 draw.SimpleText( "Armor", "healtharmor", 9, 1040, Color(255,255,255),0,0) -- TEXT
 
