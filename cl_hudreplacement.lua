@@ -81,7 +81,7 @@ surface.CreateFont( "jobfont", {
 	antialias = true,
 })
 
--- UPTO HERE, THIS ARE FONTS
+-- UPTO HERE, THESE ARE FONTS
 
 local hideHUDElements = {
 	-- if you DarkRP_HUD this to true, ALL of DarkRP's HUD will be disabled. That is the health bar and stuff,
@@ -106,7 +106,7 @@ local hideHUDElements = {
 
 hook.Add("HUDPaint","myhud", function()
 
--- PRINCIPAL BOX, TEXT, LINE
+-- MAIN BOX, TEXT, BARS
 
 draw.RoundedBox(5,5,840,520,230,Color(45,45,45,255)) -- MAIN BOX
 draw.SimpleText( "Health", "healtharmor", 9, 1015, Color(255,255,255),0,0) -- TEXT
